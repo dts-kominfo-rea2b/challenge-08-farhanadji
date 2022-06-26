@@ -1,0 +1,56 @@
+html {
+  background-color: #ffffff;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body {
+  width: 800px;
+  font-family: 'Space Mono', monospace;
+  border: 3px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#todo-input {
+  width: 300px;
+  height: 50px;
+  font-family: 'Space Mono';
+  font-size: 15px;
+  padding: 0px 10px;
+  border: 3px solid black;
+}
+
+#todo-submit {
+  height: 55px;
+  width: 100px;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+  font-family: 'Space Mono';
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+#todo-submit:hover {
+  background-color: black;
+  color: white;
+}
+
+#todo-output {
+  border: 3px solid black;
+  width: 800px;
+  padding: 30px;
+}
+
+.todo-item {
+  font-size: 20px;
+  font-family: 'Space Mono';
+  margin: 0px 20px;
+}
